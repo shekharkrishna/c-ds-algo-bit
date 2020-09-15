@@ -18,7 +18,8 @@ void draw(int h)
     {
         return;
     }
-#
+# recursive function that takes care of the smaller subset 
+# of the larger problem that is solved after the call below
     draw(h - 1);
 #
     for (int i = 1; i <= h; i++)
